@@ -1,0 +1,136 @@
+#image
+{
+	float : center;
+	transform : translateX(50%);
+	position: relative;
+	animation-name: img;
+	animation-duration: 3s;
+	animation-delay : 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes img
+{
+	0%   {left:0px; top:0px;}
+	50%  {left:40px; top:0px;}
+	100% {left:0px; top:0px;}
+}
+				
+.animated {
+		
+	background-repeat: no-repeat;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}	
+
+.error1
+{
+	transform : translate(47%,-450%);
+	font-weight : bold;
+	font-size : 20px;
+}
+
+.error2
+{
+	transform : translate(43%,-450%);
+	font-weight : bold;
+	font-size : 20px;
+}
+
+
+.callout1
+{
+	color : white;
+	transform : translate(21%,-645%);
+	font : Nunito;
+	font-size : 30px;
+	font-weight : bold;
+}
+.callout2
+{
+	color : white;
+	transform : translate(21%,-800%);
+	font : Nunito;
+	font-size : 23px;
+	font-weight : bold;
+}
+ 
+@keyframes animated {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+				
+body{
+	margin:0;
+	padding:5px;
+	background-position: center;
+	background-size: cover;
+	background-image:url('BlackBG-2.jpg');
+	color: red;
+	font-family: century gothic;
+}
+.loginbox{
+	width: 450px;
+	height: 350px;
+	color: white;
+	top:50%;
+	left: 50%;
+	border : 5px double lightgreen;
+	position: absolute;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+	transform : translate(-20%,-25%);
+	box-sizing : border-box;
+}
+h1{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align:center;
+	transform : translate(0%,40%);
+	font-size:22px;
+}
+.loginbox p{
+	margin :0;
+	padding : 5px;
+	transform : translate(0%,40%);
+	font-weight:bold;
+	text-align:center;
+}
+.loginbox input{
+	width:80%;
+	margin-bottom:20px;
+}
+#temp
+{
+	transform : translate(0%,2%);
+	border : white 1px;
+}
+
+.loginbox input[type="text"] ,input[type="password"]{
+	border: none;
+	border-bottom:1px solid white;
+	background: transparent;
+	height: 40px;
+	outline:none;
+	color:white;
+	font-size:16px;
+}
+.submit
+{
+	border:none;
+	outline:none;
+	background:red;
+	width : 50%;
+	transform : translate(0%,80%);
+	color:white;
+	font-size:18px;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+.loginbox a{
+	line-height:20px;
+	font-size:12px;
+	transform : translate(0%,80%);
+	color :darkgrey;
+}	

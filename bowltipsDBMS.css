@@ -1,0 +1,23 @@
+#image
+{
+	float : center;
+	position: relative;
+	animation-name: img;
+	animation-duration: 3s;
+	animation-delay : 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes img
+{
+	0%   {left:0px; top:0px;}
+	50%  {left:40px; top:0px;}
+	100% {left:0px; top:0px;}
+}
+				
+.animated {
+		
+	background-repeat: no-repeat;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-fill-mode: both;
+}
